@@ -1,0 +1,29 @@
+#print the numbers of squre from 1 to 10
+for i in range(0,11,1):
+  print(i**2, end=" ")
+
+  #sum of digits 
+N=749
+sum=0
+while N>0:
+    digit=N%10
+    sum+=digit
+    N=N//10
+    print(sum)
+
+#break statements   
+i=0
+while i<=5:
+    print(i)
+    i+=1
+
+    if i==4:
+        break
+  
+import random
+
+while True:
+    r=random.randint(1,10)
+
+    if r==5:
+        break
